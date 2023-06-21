@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HiddenExecutableLoader", "HiddenExecutable\HiddenExecutable.vcxproj", "{BE78A189-A621-447F-A2FB-935088D91E68}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OurHiddenExecutable", "OurHiddenExecutable\OurHiddenExecutable.vcxproj", "{131A11D4-6D42-4736-97D5-A902B757FF25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Victim", "Victim\Victim.vcxproj", "{F902808B-BD47-4AE8-A9E8-DF6537A6A613}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Injector", "Injector\Injector.vcxproj", "{0AAF79D4-5D80-400E-B8BD-5F4499A04267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE78A189-A621-447F-A2FB-935088D91E68}.Release|x86.ActiveCfg = Release|Win32
+		{BE78A189-A621-447F-A2FB-935088D91E68}.Release|x86.Build.0 = Release|Win32
+		{131A11D4-6D42-4736-97D5-A902B757FF25}.Release|x86.ActiveCfg = Release|Win32
+		{131A11D4-6D42-4736-97D5-A902B757FF25}.Release|x86.Build.0 = Release|Win32
+		{F902808B-BD47-4AE8-A9E8-DF6537A6A613}.Release|x86.ActiveCfg = Release|Win32
+		{F902808B-BD47-4AE8-A9E8-DF6537A6A613}.Release|x86.Build.0 = Release|Win32
+		{0AAF79D4-5D80-400E-B8BD-5F4499A04267}.Release|x86.ActiveCfg = Release|Win32
+		{0AAF79D4-5D80-400E-B8BD-5F4499A04267}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9026D6B-1597-44E7-9B23-3CB79B921F22}
+	EndGlobalSection
+EndGlobal
